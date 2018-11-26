@@ -1,0 +1,4 @@
+
+#install pakage/module
+
+py -3.7 -m pip install PyOpenGL PyOpenGL_accelerate

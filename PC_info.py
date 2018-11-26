@@ -21,10 +21,10 @@ for filename in allfiles:
     get_serial_num = content[1][:19].replace('\n','')
     pclist.append(PC(filename,fullname,get_model,get_serial_num))
     
-pclist.sort(key=lambda x: x.serial_num, reverse=False)
+pclist.sort(key=lambda x: x.name, reverse=False)
 
 for pc in pclist:
-    print(pc.serial_num,pc.model,pc.name)
+    print(pc.name, pc.serial_num,pc.model)
     
     
 
